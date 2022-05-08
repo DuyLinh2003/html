@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form method="action_page_php">
+    <label for="name">Họ và tên:</label><br>
+    <input type="text" id="name" ><br><br>
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" name="email"><br><br>
+    <label for="phone">Số điện thoại:</label><br>
+    <input type="text" id="phone" name="phone"><br><br>
+    <label for="gender">Giới tính:</label><br>
+    <input type="radio" id="gender" name="gender" value="Nam">
+    <label for="gender">Name</label>
+    <input type="radio" id="gender" name="gender" value="Nam">
+    <label for="gender">Nữ</label><br><br>
+    <input type="submit" value="Đăng kí">
+</form>
+</body>
+</html>
